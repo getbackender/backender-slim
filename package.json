@@ -1,0 +1,51 @@
+{
+  "name": "backender-slim",
+  "version": "0.0.7",
+  "description": "gulp plugin to test and mock back-end server without browser testing",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbackender/backender-slim.git"
+  },
+  "keywords": [
+    "gulp",
+    "npm"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "sam <contactsamie@gmail.com> ",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/getbackender/backender-slim/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/getbackender/backender-slim/issues"
+  },
+  "homepage": "https://github.com/getbackender/backender-slim#readme",
+  "dependencies": {
+    "app-module-path": "^1.1.0",
+    "ava": "^0.14.0",
+    "backender-testbuilder": "0.0.8",
+    "chai": "^3.4.1",
+    "copy-dir": "0.0.8",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^4.2.0",
+    "gulp-json-srv": "^0.2.0",
+    "gulp-util": "^3.0.7",
+    "list-directory-contents": "0.0.3",
+    "lodash": "^4.13.1",
+    "mocha": "^2.3.4",
+    "proxy-middleware": "^0.15.0",
+    "spawn-cmd": "0.0.2",
+    "through2": "^2.0.1",
+    "underscore": "^1.8.3",
+    "xo": "^0.14.0"
+  }
+}
